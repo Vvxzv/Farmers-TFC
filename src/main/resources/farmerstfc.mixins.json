@@ -1,0 +1,18 @@
+{
+  "required" : true,
+  "minVersion" : "0.8",
+  "package" : "net.vvxzv.farmerstfc.mixin",
+  "compatibilityLevel" : "JAVA_8",
+  "refmap" : "farmerstfc.refmap.json",
+  "mixins" : [
+    "SkilletBlockEntityMixin"
+  ],
+  "client" : [
+  ],
+  "injectors" : {
+    "defaultRequire" : 1
+  },
+  "overwrites" : {
+    "requireAnnotations" : true
+  }
+}
