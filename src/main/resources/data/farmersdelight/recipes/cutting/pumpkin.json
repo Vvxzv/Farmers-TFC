@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+        "item": "tfc:pumpkin"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "tfc:hammers"
+  },
+  "result": [
+    {
+      "item": "tfc:food/pumpkin_chunks",
+      "count": 6,
+      "modifiers": [
+        "tfc:copy_food"
+      ]
+    }
+  ]
+}
