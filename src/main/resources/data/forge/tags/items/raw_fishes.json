@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:food/cod",
+    "tfc:food/salmon",
+    "tfc:food/bluegill",
+    "tfc:food/tropical_fish",
+    "tfc:food/shellfish"
+  ]
+}
