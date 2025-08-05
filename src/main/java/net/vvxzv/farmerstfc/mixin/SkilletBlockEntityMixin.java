@@ -56,7 +56,7 @@ public abstract class SkilletBlockEntityMixin extends SyncedBlockEntity {
 
         if (heatingRecipe.isPresent()) {
             HeatingRecipe recipe = heatingRecipe.get();
-            if (recipe.getTemperature() < 250) {
+            if (recipe.getTemperature() < 201) {
                 this.lastHeatingRecipeID = recipe.getId();
                 CampfireCookingRecipe fakeCampfireRecipe = new CampfireCookingRecipe(
                         recipe.getId(),
